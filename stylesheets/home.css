@@ -1,0 +1,237 @@
+
+@font-face
+{
+	font-family: logoFont;
+	src: url('../fonts/HallFetica.ttf');
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+
+body
+{
+	font-family: Arial;
+	text-align: center;
+	margin:0px;
+}
+
+.header
+{
+	overflow:visible;
+	margin: 0px;
+	height:50px;
+	width:100%;
+	background:rgb(50,50,50);
+	
+	/*background: -webkit-gradient(linear, left top,left bottom, from(#606060 ), to(#000000 ));*/
+}
+
+.logo
+{
+	margin-left: 10px;
+	font-family: logoFont;
+	float: left;
+}
+
+.greeting
+{
+	float:right;
+	font-family: logoFont;
+	margin-right:10px;
+	overflow: hidden;
+	
+}
+
+#greeting
+{
+	margin-top: 17px;
+	font-size:25px;
+	
+	
+	text-shadow: -1px -1px 0px black; 
+	background: -moz-linear-gradient(top center, #00a4fd, #216dec); 
+	background: -webkit-gradient(linear, left top,left bottom, from(#F0F0F0 ), to(#686868 ));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: white;
+	
+}
+
+#logo
+{
+	text-align: left;
+	margin-top: 0px;
+	font-size: 40px;
+	margin-left:auto;
+	margin-right:auto;
+	font-family: logoFont;
+	text-shadow: -1px -1px 0px black;
+	background: -moz-linear-gradient(top center, #00a4fd, #216dec); 
+	background: -webkit-gradient(linear, left top,left bottom, from(#F0F0F0 ), to(#686868 ));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: white;
+}
+
+
+
+.fb-like
+{
+	float:right;
+	margin-top: 22px;
+	margin-right:20px;
+	overflow: visible;
+}
+
+
+.container-player
+{
+
+	margin-top: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+.player
+{
+	
+	height: 550px;
+	margin-left: 25px;
+	margin-right: 335px;
+	padding:50px;
+	border: solid 1px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+
+}
+
+#iframe-player
+{
+	height:100%;
+	width:100%;
+}
+
+.menu
+{
+	float:right;
+	margin-right: 25px;
+	padding-top: 10px;
+	background: white;
+	width:290px;
+	height:640px;
+	border: solid 1px rgba(0, 0, 0, 0.4);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+	overflow: hidden;
+}
+
+
+
+
+
+.selector
+{
+	height: 60px;
+	width: 275px;
+	margin-left:auto;
+	margin-right: auto;
+	overflow: hidden;
+}
+
+.selector-tab
+{
+	border: 1px solid black;
+	height: 50px;
+	border-radius: 5px;
+	width:100px;
+	margin-left: 8px;
+	margin-right:8px;
+	margin-top: 5px;
+	display: inline-block;
+	font-family: logoFont;
+	background:rgb(50,50,50);
+	/*background: -webkit-gradient(linear, left top,left bottom, from(#606060 ), to(#000000 ));*/
+	
+}
+ 
+.selector-tab:hover
+{
+	background:rgb(0,0,0) ;
+	/*background: -webkit-gradient(linear, left top,left bottom, from(#000000 ), to(#000000 ));*/
+	cursor: pointer;
+}
+
+.selector-text
+{
+	margin: 13px;
+	text-shadow: -1px -1px 0px black;
+	background: -moz-linear-gradient(top center, #00a4fd, #216dec); 
+	background: -webkit-gradient(linear, left top,left bottom, from(#F0F0F0 ), to(#686868 ));
+	-webkit-background-clip: text;
+	  -webkit-text-fill-color: white;
+	font-size: 20px;
+}
+
+
+.thumbnail-container
+{
+
+	margin-top: 10px;
+	overflow-y: scroll;
+	margin-right:auto;
+	margin-left: auto;
+	height:555px;
+	display: inline-block;
+	border-top: 1px solid #bbb;
+	border-bottom: 1px solid #bbb;
+
+}
+
+
+
+.video
+{
+	overflow: hidden;
+	padding: 5px;
+	margin:10px;
+	border: solid 1px #bbb;
+	border-radius: 3px;
+	
+}
+
+.video:hover
+{
+	border: solid 1px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 0 4px rgba(80,130,210, 1);;
+	-webkit-box-shadow: 0 0 4px rgba(80,130,210, 1);
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+	cursor: pointer;
+}
+
+
+.thumbnail
+{
+	margin-top:3px;
+	margin-left:3px;
+	float: left;
+	width: 120px;
+	overflow: hidden;
+
+}
+
+
+.description
+{
+	float: left;
+	width: 110px;
+	margin-top:4px;
+	margin-left: 5px;
+}
+
+p.desc
+{
+	 margin: 0px;
+	font-size: 15px;
+}
