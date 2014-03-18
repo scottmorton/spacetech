@@ -46,13 +46,22 @@ var video = new Array();
 	video[13][0]="HXdjxPY2j_0";
 	video[13][1]="SpaceX Grasshopper Divert Maneuver";
 	
+	last_elem=0;
+	
+	for (var i=0; i < video.length; i++) {
+		if(video[i][0]!="")
+		{
+			last_elem=i;
+		}
+  	}
+	
 	
 	
 
 $(document).ready(function() {
 	
 	populate_thumbnails(video, "#thumbnails");
-	$('#iframe-player').attr('src', 'http://www.youtube.com/embed/'+video[video.length-1][0]);
+	$('#iframe-player').attr('src', 'http://www.youtube.com/embed/'+video[last_elem][0]);
 
 	
 	$(".video").live('click', function() {
@@ -74,8 +83,8 @@ function populate_thumbnails(array, divId)
 	for (var i = array.length-1; i > -1; i--) {
 		if(array[i][0]!="")
 		{
-		htmlString= htmlString+
-		'<div class="video" id='+array[i][0]+'><div class="thumbnail"> <img src="http://img.youtube.com/vi/'+array[i][0]+'/3.jpg"></div>  <div class="description"> <p class="desc">'+ array[i][1]+'</p> </div></div> ';
+			htmlString= htmlString+
+			'<div class="video" id='+array[i][0]+'><div class="thumbnail"> <img src="http://img.youtube.com/vi/'+array[i][0]+'/3.jpg"></div>  <div class="description"> <p class="desc">'+ array[i][1]+'</p> </div></div> ';
 		}
   	}
 	
