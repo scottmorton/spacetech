@@ -52,7 +52,7 @@ var video = new Array();
 $(document).ready(function() {
 	
 	populate_thumbnails(video, "#thumbnails");
-	$('#iframe-player').attr('src', 'http://www.youtube.com/embed/'+video[0][0]);
+	$('#iframe-player').attr('src', 'http://www.youtube.com/embed/'+video[video.length-1][0]);
 
 	
 	$(".video").live('click', function() {
