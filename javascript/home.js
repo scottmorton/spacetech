@@ -49,7 +49,7 @@ var video = new Array();
 	video[14][0]="hg1H0dC2l_w";
 	video[14][1]="The Russian Proton M Rocket";
 	
-	video[15][0]="http://youtu.be/--X9zfgZtS0";
+	video[15][0]="X9zfgZtS0";
 	video[15][1]="The Hubble Space Telescope";
 	
 	last_elem=0;
