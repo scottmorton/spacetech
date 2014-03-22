@@ -54,7 +54,7 @@ var video = new Array();
 	
 	
 	video[16][0]="Zo62S0ulqhA";
-	video[16][1]="Astronaut Chris Hadfield Describes The Experience of Leaving the Planet";
+	video[16][1]="Astronaut Chris Hadfield Describes Going Blind During Space Walk";
 	
 	last_elem=0;
 	
